@@ -1,11 +1,11 @@
-import { DataTable } from "./components/DataTable";
+import { Toaster } from "@/components/ui/toaster";
+import { RegistrationForm } from "./components/RegistrationForm";
 
-function App() {
+export default function App() {
   return (
-    <div className="min-h-screen bg-gray-50 p-4">
-      <DataTable />
+    <div className="min-h-screen flex items-center justify-center p-4 bg-gray-50 dark:bg-gray-900">
+      <RegistrationForm />
+      <Toaster />
     </div>
   );
 }
-
-export default App;
