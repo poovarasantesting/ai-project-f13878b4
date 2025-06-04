@@ -1,11 +1,9 @@
-import { LoginForm } from "./components/LoginForm";
-import { Toaster } from "sonner";
+import { DataTable } from "./components/DataTable";
 
 function App() {
   return (
-    <div className="min-h-screen flex items-center justify-center p-4 bg-gray-50 dark:bg-gray-900">
-      <Toaster position="top-center" />
-      <LoginForm />
+    <div className="min-h-screen bg-gray-50 p-4">
+      <DataTable />
     </div>
   );
 }
